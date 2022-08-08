@@ -1,4 +1,0 @@
-discord.py==1.7.3
-urllib3==1.26.11
-async-timeout==3.0.1
-discord-components==2.1.2
