@@ -17,6 +17,7 @@ from discord.ext import commands
 import discord_components
 from discord_components import DiscordComponents, Button, ButtonStyle
 from discord.utils import get
+import os
 
 
 PREFIX = "+"
@@ -886,4 +887,4 @@ async def help(ctx,cmd=None):
 		else:
 			await ctx.reply("Такой команды не существует!")
 
-bot.run(TOKEN)
+bot.run(os.environ["DISCORD_TOKEN"])
