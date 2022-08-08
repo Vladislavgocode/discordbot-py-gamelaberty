@@ -18,6 +18,7 @@ import discord_components
 from discord_components import DiscordComponents, Button, ButtonStyle
 from discord.utils import get
 
+
 PREFIX = "+"
 bot = commands.Bot(command_prefix=PREFIX,intents=discord.Intents.all())
 bot.remove_command("help")
